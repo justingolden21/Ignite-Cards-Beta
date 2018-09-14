@@ -11,6 +11,9 @@ black:		#333
 */
 
 /* GENERIC */
+html {
+  scroll-behavior: smooth;
+}
 body, .jumbotron, .navbar {  
   font-family: Roboto, sans-serif;
   color: #333;
@@ -18,6 +21,10 @@ body, .jumbotron, .navbar {
 i {
   padding: 0 !important;
 }
+
+/*.page-scroll {
+  margin: 0px !important;
+}*/
 
 .logo-rgb {
   margin-top: 12px;
@@ -194,8 +201,8 @@ box-shadow: 0 4px 4px 0px rgba(51,51,51,0.25); /*#333*/
   color: #fff;
   background-color: #991f1f;
 }
-.navbar i:hover {
-  color: #991f1f;
+.navbar i:hover, .navbar .active, .navbar .active i {
+  color: #991f1f !important;
   background-color: #fff;
   cursor: pointer;
 }
@@ -299,6 +306,9 @@ footer a {
 /*sharethis*/
 .st-btn {
   background-color: #333 !important;
+}
+.st-label, .st-shares {
+  color: #fff !important;
 }
 
 /* @MEDIA */

@@ -3,7 +3,9 @@ layout: default-hbf
 active: Home
 ---
 
-<div class="jumbotron text-center">
+<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+
+<div id="home" class="jumbotron text-center">
   <h1><img class="logo logo-game" src="{{ site.baseurl }}/assets/images/icon-thick.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/icon-thick.png';"><b>IGNITE</b></h1> 
   <p><i>A game of crazy combos and epic explosions</i></p>
   <div class="row">
@@ -129,7 +131,7 @@ active: Home
 </div>
 
 <footer class="container-fluid text-center">
-  <a href="#home" title="To Top">
+  <a href="{{ site.baseurl }}/index.html#top" title="To Top">
     <i class="fas fa-chevron-up"></i>
   </a>
   <br>
