@@ -1,37 +1,17 @@
 ---
-layout: default-hbf
-title: Cards
+layout: default-layout
+title: Card Gallery
 active: Cards
 permalink: /cards/
 ---
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/card-styles.css">
-  <script src="{{ site.baseurl }}/assets/js/card-scripts.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/card-styles.css">
+<script src="{{ site.baseurl }}/assets/js/card-scripts.js"></script>
 
-<div class="jumbotron text-center">
-  <h1><img class="logo logo-game" src="{{ site.baseurl }}/assets/images/icon-thick.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/icon-thick.png';"><b>Card Gallery</b></h1>
-</div> 
 
 <div id="cardDiv" class="slideshow-container container-fluid bg-grey">
-<!-- Next and previous buttons -->
   <a class="prev" title="Previous" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" title="Next" onclick="plusSlides(1)">&#10095;</a>
-  
 </div>
 
-<!-- slideshow dots -->
 <div id="dots"></div>
-
-<footer class="container-fluid text-center">
-  <p>&copy; <img class="logo-rgb" src="{{ site.baseurl }}/assets/images/rgb-icon.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/rgb-icon.png';"> <a tabindex="-1" title="rgbstudios.org" href="http://rgbstudios.org" target="_blank">RGB Studios</a> 2018</p>
-</footer>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104632692-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-104632692-5');
-</script>

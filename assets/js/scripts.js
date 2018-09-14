@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 
+  $(window).scroll();
 
   $(".fa-envelope").hover(
        function(){ 

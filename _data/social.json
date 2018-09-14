@@ -1,27 +1,27 @@
 [
   {
-    "name": "email",
-    "url": "mailto:contact@ignite.cards",
-    "icon": "fas fa-envelope"
-  },
-  {
-    "name": "facebook",
+    "name": "Facebook",
     "url": "https://www.facebook.com/ignitecard/",
     "icon": "fab fa-facebook-f"
   },
   {
-    "name": "youtube",
-    "url": "https://www.youtube.com/channel/UC-yp5arUJMH2GeDmY12h6ZA",
-    "icon": "fab fa-youtube"
-  },
-  {
-    "name": "twitter",
+    "name": "Twitter",
     "url": "https://twitter.com/ignitecards",
     "icon": "fab fa-twitter"
   },
   {
-    "name": "discord",
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/UC-yp5arUJMH2GeDmY12h6ZA",
+    "icon": "fab fa-youtube"
+  },
+  {
+    "name": "Discord",
     "url": "https://discord.gg/5enYaaa",
     "icon": "fab fa-discord"
+  },
+  {
+    "name": "Email",
+    "url": "mailto:contact@ignite.cards",
+    "icon": "fas fa-envelope"
   }
 ]

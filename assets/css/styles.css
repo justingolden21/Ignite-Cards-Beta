@@ -166,7 +166,7 @@ label {
 /* JUMBOTRON */
 .jumbotron {
   margin-bottom: 0px !important;
-  padding-bottom: 0 !important;
+  padding-bottom: 25px !important;
   text-align: center;
   background-color: #991f1f; /* red */
   color: #fff;
