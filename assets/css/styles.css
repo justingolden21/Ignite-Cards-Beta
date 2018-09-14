@@ -273,16 +273,18 @@ textarea {
 }
 
 /* FOOTER */
+footer {
+  /*background-color: #991f1f;*/
+  /*color: #fff;*/
+}
 footer .fa-chevron-up {
   font-size: 25px;
-  margin: 10px 0;
-  color: #991f1f;
+  /*color: #fff;*/
+  margin-top: 10px;
 }
-footer .fa-chevron-up:hover {
-  color: #333;
-}
-footer a {
-    text-decoration: none !important;
+footer a, footer a:hover {
+  /*text-decoration: none !important;*/
+  /*color: #fff;*/
 }
 
 /* SCROLLBAR */
