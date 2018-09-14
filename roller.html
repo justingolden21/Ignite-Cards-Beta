@@ -1,0 +1,43 @@
+---
+layout: default-hbf
+title: Roll
+active: Roll
+permalink: /roller/
+---
+
+  <link rel="stylesheet" href="roller-styles.css">
+  <script src="roller-scripts.js"></script>
+
+  <div class="jumbotron text-center">
+  <h1><img class="logo logo-game" src="assets/icon-thick.svg" onerror="this.onerror=null;this.src='assets/icon-thick.png';"><b>Ignite Roller</b></h1>
+</div> 
+
+
+
+<div class="text-center">
+  <br>
+<button id="rollButton" class="btn btn-lg btn-red"><img src="assets/favicon-white.svg" onerror="this.onerror=null;this.src='assets/favicon-white.png';" width="24px"> IGNITE!</button>
+<br>
+<img id="targetDie" class="img-die" src="">
+<img id="damageDie" class="img-die" src="">
+<p id="desc"></p>
+<hr>
+Rolled <span id="numRolls" class="badge">0</span> dice
+<br><br>Click button or press <kbd>Enter</kbd> to roll
+</div>
+
+
+
+<footer class="container-fluid text-center">
+  <p>&copy; <img class="logo-rgb" src="assets/rgb-icon.svg" onerror="this.onerror=null;this.src='assets/rgb-icon.png';"> <a tabindex="-1" title="rgbstudios.org" href="http://rgbstudios.org" target="_blank">RGB Studios</a> 2018</p>
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104632692-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-104632692-5');
+</script>
