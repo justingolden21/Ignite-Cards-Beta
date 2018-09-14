@@ -5,18 +5,18 @@ active: Roll
 permalink: /roller/
 ---
 
-  <link rel="stylesheet" href="roller-styles.css">
-  <script src="roller-scripts.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/roller-styles.css">
+  <script src="{{ site.baseurl }}/assets/js/roller-scripts.js"></script>
 
   <div class="jumbotron text-center">
-  <h1><img class="logo logo-game" src="assets/icon-thick.svg" onerror="this.onerror=null;this.src='assets/icon-thick.png';"><b>Ignite Roller</b></h1>
+  <h1><img class="logo logo-game" src="{{ site.baseurl }}/assets/images/icon-thick.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/icon-thick.png';"><b>Ignite Roller</b></h1>
 </div> 
 
 
 
 <div class="text-center">
   <br>
-<button id="rollButton" class="btn btn-lg btn-red"><img src="assets/favicon-white.svg" onerror="this.onerror=null;this.src='assets/favicon-white.png';" width="24px"> IGNITE!</button>
+<button id="rollButton" class="btn btn-lg btn-red"><img src="{{ site.baseurl }}/assets/images/favicon-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/favicon-white.png';" width="24px"> IGNITE!</button>
 <br>
 <img id="targetDie" class="img-die" src="">
 <img id="damageDie" class="img-die" src="">
@@ -29,7 +29,7 @@ Rolled <span id="numRolls" class="badge">0</span> dice
 
 
 <footer class="container-fluid text-center">
-  <p>&copy; <img class="logo-rgb" src="assets/rgb-icon.svg" onerror="this.onerror=null;this.src='assets/rgb-icon.png';"> <a tabindex="-1" title="rgbstudios.org" href="http://rgbstudios.org" target="_blank">RGB Studios</a> 2018</p>
+  <p>&copy; <img class="logo-rgb" src="{{ site.baseurl }}/assets/images/rgb-icon.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/rgb-icon.png';"> <a tabindex="-1" title="rgbstudios.org" href="http://rgbstudios.org" target="_blank">RGB Studios</a> 2018</p>
 </footer>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
