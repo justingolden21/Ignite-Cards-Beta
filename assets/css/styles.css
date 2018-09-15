@@ -175,7 +175,7 @@ label {
 
 /* NAVBAR */
 .navbar {
-box-shadow: 0 4px 4px 0px rgba(51,51,51,0.25); /*#333*/
+  box-shadow: 0 4px 4px 0px rgba(51,51,51,0.25); /*#333*/
 }
 .navbar, #navTitle {
   margin-bottom: 0;
@@ -195,7 +195,7 @@ box-shadow: 0 4px 4px 0px rgba(51,51,51,0.25); /*#333*/
   padding-bottom: 10px;  
 }
 .navbar i {
-  padding: 20px;
+  padding: 10px;
   font-size: 25px;
   text-align: center;
   color: #fff;
@@ -221,7 +221,7 @@ box-shadow: 0 4px 4px 0px rgba(51,51,51,0.25); /*#333*/
   color: #fff !important;	
   background-color: #991f1f !important;	
 }
-.dropdown-menu{
+.dropdown-menu {
   background-color: #991f1f;
   border-radius: 0;
   margin:0;
