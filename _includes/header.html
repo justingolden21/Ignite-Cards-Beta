@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top ">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
       <span class="sr-only">Toggle navigation</span>
@@ -12,7 +12,7 @@
     </p>
     
     <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-left">
         <li><a class="page-scroll" tabindex="-1" href="{{ site.baseurl }}/index.html#home"><i class="fas fa-home"></i> HOME</a></li>
         <li><a class="page-scroll" tabindex="-1" href="{{ site.baseurl }}/index.html#about"><i class="fas fa-info-circle"></i> ABOUT</a></li>
         <li><a class="page-scroll" tabindex="-1" href="{{ site.baseurl }}/index.html#gameplay"><i class="fas fa-chess-pawn"></i> GAMEPLAY</a></li>
@@ -25,6 +25,7 @@
           </ul>
         </li>
       </ul>
+      <!-- TODO: get socials to actually align right (screw you bootstrap) -->
       <ul class="nav navbar-nav navbar-right">
       {% for item in site.data.social %}
       <li>
